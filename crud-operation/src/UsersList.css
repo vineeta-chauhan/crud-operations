@@ -1,0 +1,46 @@
+thead {
+  background-color: #b5bab6;
+}
+
+tr {
+  border: solid 1px #b5bab6;
+}
+
+.FlexOne {
+  flex: 1;
+}
+
+.TableContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 1px solid #333;
+}
+
+.User {
+  display: flex;
+  flex-direction: row;
+}
+
+.DataColumn {
+  align-self: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 20px;
+  display: flex;
+}
+.delete{
+
+}
+.age{
+  padding-left:18%
+}
+.addUsersButtonContainer{
+  margin: auto;
+  margin-top: 20px;
+  width: 70%;
+}
+.addUserButton{
+  float: left;
+}

@@ -1,0 +1,26 @@
+label{
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+}
+.label{
+    flex:1
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-left: 10px;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+}
+.detailSubmitButton{
+    margin-top: 30px;
+    height: 30px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+}
